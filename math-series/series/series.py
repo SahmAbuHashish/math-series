@@ -1,4 +1,12 @@
 def fibonacci(n):
+
+    """Return the nth value in the fibonacci series.
+    Parameters:
+    n: The index of the fibonacci value to return.
+    Returns:
+    The fibonacci value at the given index.
+    """
+     
     if n < 0:
         return None
     elif n == 0:
@@ -10,6 +18,12 @@ def fibonacci(n):
 
 
 def lucas(n):
+    """Return the nth value in the lucas series.
+    Parameters:
+    n : The index of the lucas value to return.
+    Returns:
+    The lucas value at the given index.
+    """ 
     if n < 0:
         return None
     elif n == 0:
@@ -21,6 +35,15 @@ def lucas(n):
 
 
 def sum_series(n, first=0, second=1):
+
+    """Return the nth value in a custom series.
+    Parameters:
+    n: The index of the series value to return.
+    first: The first value of the series. Default is 0 for fibonacci series.
+    second: The second value of the series. Default is 1 for fibonacci series.
+    Returns:
+    The series value at the given index.
+    """
     if n < 0:
         return None
     elif n == 0:
